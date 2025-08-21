@@ -26,9 +26,9 @@ describe('Testes de Login', () => {
     
   })
 
-  it('TC4:  dados de login em branco', () => {
+  it.only('TC4:  dados de login em branco', () => {
        
-    cy.login(" ", " ")
+     cy.get('#login-button').click();
     cy.contains('Epic sadface: Username is required').should('be.visible');
     
   })
