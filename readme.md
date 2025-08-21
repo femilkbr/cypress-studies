@@ -5,7 +5,9 @@
 ## FEATURE: AUTENTICAÇÃO DO USUÁRIO ##
 
 **Para** garantir que usuários válidos possam acessar o site
+
 **Como** um usuário do site
+
 **Quero** me logar com minhas credenciais
 
   ## CASOS DE TESTE ##
