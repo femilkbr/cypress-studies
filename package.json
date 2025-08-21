@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/femilkbr/cypress-studies#readme",
   "devDependencies": {
-    "cypress": "^15.0.0"
+    "cypress": "^15.0.0",
+    "cypress-xpath": "^2.0.1"
   }
 }
