@@ -39,6 +39,11 @@ Cypress.Commands.add('login', (username, password) => {
     cy.xpath("//*[@id='inventory_container']/div/div[3]/div[3]/button").click()
   })
 
+  //Sauce Labs Bike Light
+  Cypress.Commands.add('addproduct4', () => { 
+    cy.xpath("//*[@id='inventory_container']/div/div[2]/div[3]/button").click()
+  })
+
   Cypress.Commands.add('clickcart', () => { 
     cy.get('.shopping_cart_link').click()
   })

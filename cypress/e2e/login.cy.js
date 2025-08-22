@@ -4,7 +4,7 @@ describe('Testes de Login', () => {
     cy.visit('https://www.saucedemo.com/v1/index.html')
   })
 
-  it('TC1:  Login bem-sucedido com credenciais válidas', () => {
+  it.only('TC1:  Login bem-sucedido com credenciais válidas', () => {
     
     cy.login("standard_user", "secret_sauce")
     cy.url().should('include', '/inventory.html');
