@@ -130,7 +130,7 @@
 
 **E** clico no botão "CANCEL" 
 
-**Então** devo ser redirecionado para a página de produtos
+**Então** devo ser redirecionado de volta para o carrinho
 
 
 **Caso de Teste 4: Checkout com campos de informação obrigatórios em branco** 
